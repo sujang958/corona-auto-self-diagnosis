@@ -66,7 +66,7 @@ var indexNum = require('./indexNum');
     await page.waitForTimeout(500)
     await page.click('#btnConfirm')
 
-    await page.screenshot({path: 'dd.png'})
+    console.log('성공적으로 맞췄습니다');
 })()
 
 // const 학교인덱스 = {
