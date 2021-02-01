@@ -1,4 +1,17 @@
 module.exports = {
+    sort: school => {
+        if (school.includes('초등')) {
+            return '2';
+        } else if (school.includes('중')) {
+            return '3';
+        } else if (school.includes('고등')) {
+            return '4';
+        } else if (school.includes('특수')) {
+            return '5';
+        } else if (school.includes('유치')) {
+            return '1';
+        }
+    },
     학교인덱스: {
         유치원: '1',
         초등학교: '2',
