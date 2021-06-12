@@ -1,4 +1,4 @@
-const diagnosis = require("./src");
+const diagnosis = require("./src/diagnosis");
 
 (async () => {
     await diagnosis({
