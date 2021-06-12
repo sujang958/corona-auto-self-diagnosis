@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer')
 const sort = require('./sort')
 
-module.exports = async (option) => {
+module.exports = async option => {
     const browser = await puppeteer.launch({
         handleSIGINT: false,
         headless: false,
